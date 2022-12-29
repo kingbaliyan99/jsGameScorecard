@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Audiowide">
+        <title>BasketBall ScoreCard</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0 special-card">
+                  <div class="card border-0 special-card">
+                    <div class="card-body">
+                      <h5 class="card-title">Home</h5>
+                      <p class="card-textt" id="p-el1">0</p>
+                        <div class="d-grid gap-2 d-md-block">
+                            <button onclick="inc1()" class="btn btn-outline-secondary" type="button">+1</button>
+                            <button onclick="inc2()" class="btn btn-outline-secondary" type="button">+2</button>
+                            <button onclick="inc3()" class="btn btn-outline-success" type="button">+3</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-sm-6">
+                  <div class="card border-0 special-card">
+                    <div class="card-body">
+                      <h5 class="card-title">Guest</h5>
+                      <p class="card-textt" id="p-el2">0</p>
+                        <div class="d-grid gap-2 d-md-block">
+                            <button onclick="inc4()" class="btn btn-outline-secondary" type="button">+1</button>
+                            <button onclick="inc5()" class="btn btn-outline-secondary" type="button">+2</button>
+                            <button onclick="inc6()" class="btn btn-outline-success" type="button">+3</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                    <button onclick="win()" class="btn btn-success" type="button">Winner</button>
+                    <p class="card-title" id="winner"></p>
+              </div>
+        <script src="index.js"></script>
+    </body>
+</html>

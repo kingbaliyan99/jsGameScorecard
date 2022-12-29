@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    background-color: #1B244A!important;
+}
+.special-card{
+    align-items: center;
+    background-color: #1B244A!important;
+    margin-top: 2em;
+}
+.card-title
+{
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: white!important;
+}
+.card-body
+{ 
+    text-align: center;
+    align-items: center;
+}
+.card-textt
+{   text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: #F94F6D;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+font-family: 'Audiowide', sans-serif;
+font-size: 90px;
+font-weight: 400;
+line-height: 127px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
